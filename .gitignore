@@ -1,0 +1,5 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables (API keys, database credentials, etc.)
+.env

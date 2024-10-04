@@ -1,0 +1,13 @@
+runtime: nodejs18
+instance_class: F2
+
+env_variables:
+  NODE_ENV: 'production'
+  INSTANCE_CONNECTION_NAME: 'recipe-api-437508:us-central1:hy-public-database'
+
+beta_settings:
+  cloud_sql_instances: 'recipe-api-437508:us-central1:hy-public-database'
+
+handlers:
+  - url: /.*
+    script: auto
